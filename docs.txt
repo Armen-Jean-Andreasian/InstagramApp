@@ -1,0 +1,8 @@
+How to distinguish private and public urls without analyzing the server response:
+
+- Private content:
+    - Has length of 39 chars for the ID
+    - Have "qplTimingsServerJS",null,null" in response
+
+- Public content:
+    - Has length of 11 chars for the ID (40 for entire URl)
